@@ -1,0 +1,168 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 800px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  background-image: url("https://thumbs.dreamstime.com/b/cat-seamless-pattern-vector-kitten-calico-sleeping-pillow-scarf-isolated-cartoon-tile-wallpaper-repeat-background-illustration-165890936.jpg");
+  background-repeat:repeat;
+  font-size: 14px;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid black;
+	height: min-content;
+}
+  
+img {
+	max-width: 100%;
+	max-height: 300px;
+}
+  
+.text {
+	font-size: 15px;
+	padding-left: 20px;
+	border: 0px;
+}
+
+
+.links {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: rgb(173, 108, 223);
+}
+
+p {
+	margin-top: 1px;
+}
+
+input {
+	display: block;
+}
+
+div {
+	border: 1px solid black;
+	background-color: rgb(241, 228, 247);
+	padding: 2px;
+}
+
+h1 {
+	color: rgb(105, 18, 148);
+	font-family: "Courier New", monospace;
+	
+}
+
+h2 {
+	font-family: "Courier New", monospace;
+}
+
+h3 {
+	font-family: "Courier New", monospace;
+}
+
+
+ul {
+	background: #436b93;
+	padding: 20px;
+}
+
+.blogs-section{    
+	width: 100%;    
+	padding: 50px 5vw;    
+	display: grid;    
+	grid-template-columns: repeat(2, 1fr);    
+	grid-gap: 80px;
+} 
+	
+
+.grid{
+	/* border:5px solid purple; */
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 1em; 
+	border: 0px;
+}
+
+.card{
+	width: 300px;
+	height: 450px;
+}
+
+.card:hover{
+	position: relative;
+	top: -5px;
+}
+
+.cardContent{
+	height: 50%;
+	padding: 20px;
+	background-color: whitesmoke;
+}
+
+.cardContent h1{
+	margin-bottom: 10px;
+}
+
+.thumbnail{
+	background:url("https://assets.promptbase.com/DALLE_IMAGES%2Fal4jVqSr4AaTxaaTG8IeLgBz3US2%2Fresized%2F1700421599186w_800x800.webp?alt=media&token=fe3b8724-323c-4aa2-8755-399b736a6ff4");
+	background-size: cover;
+	background-position: top;
+	height: 50%;
+}
+.thumbnail2{
+	background:url("https://img.freepik.com/free-vector/perspective-japanese-street-neon-lights_52683-44988.jpg?size=626&ext=jpg&ga=GA1.1.1395880969.1709769600&semt=ais");
+	background-size: cover;
+	background-position: top;
+	height: 50%;
+}
+
+@media (max-width: 800px){
+	.grid{
+		grid-template-columns: 1fr;
+	}
+}
+
+#button{
+	background: rgb(181, 105, 200);
+	height: 50px;
+	width: 50px;
+	position: fixed;
+	bottom: 16px;
+	right: 16px;
+	border-radius: 50%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	color:white;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+#comment-container {
+	margin-top: 20px;
+	/* min-width: 300px;
+	max-width: 500px; */
+}
+	
+.comment {
+	border: 1px solid #ccc;
+	padding: 10px;
+	margin-bottom: 10px;
+	background-color: #f9f9f9;
+}
+
+	
+	

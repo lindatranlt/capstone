@@ -1,0 +1,65 @@
+MVP List Items Done
+
+project includes a list of MVP features *
+    this text
+
+app has at least 3 main features *
+    create a blog card
+    submit a comment
+    delete a comment
+
+front end makes a request to the server and handles the response *
+
+
+front end is interactive *
+    create new blog card. blog card shrinks when hovering over it.
+
+app has custom styling *
+    custom css created
+
+
+app has at least 5 semantic tags *
+    <p></p>
+    <div></div>
+    <img>
+    <button></button>
+    <textarea></textarea>
+
+app includes 1 view *
+    has homepage
+
+app includes 1+ additional view(s)
+    has additional firstpost html page
+
+styling includes flexbox
+    yes
+
+at least 1 view is responsive
+    asks for user input and puts it into a blogcard
+
+styling includes animations
+    blogcards shrink when hovering over
+
+
+
+app includes a GET endpoint and handler function *
+    http://localhost:4004/comments
+    postman GET is succesful
+
+app includes a POST endpoint and handler function *
+    http://localhost:4004/comments 
+    postman POST is successful
+
+
+app utilizes Sequelize
+    Sequelize is used
+
+project includes at least 1 controller file
+    controller file included
+
+
+app uses 1 table
+    1 comment tabel is made
+
+
+discusses project purpose and demonstrates MVP *
